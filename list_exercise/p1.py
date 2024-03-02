@@ -17,7 +17,6 @@ def SwapList(newlist):
     #  Storing the first and last element 
     # as a pair in a tuple variable get
     get = newlist[-1],newlist[0]
-
     newlist[0],newlist[-1] = get
     print('Third approach')
     return newlist
