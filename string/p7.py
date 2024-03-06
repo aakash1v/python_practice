@@ -22,20 +22,7 @@ freq = {word: listString.count(word) for word in set(listString)}
 # Printing result
 print("The words frequency : " + str(freq))
 
-from collections import defaultdict
 
-# Creating a defaultdict with default value 0
-freq = defaultdict(int)
-
-for word in listString:
-    # print(freq)
-    freq[word] += 1
- 
-# Converting the defaultdict to a regular dictionary
-res = dict(freq)
- 
-# Printing result
-print("The words frequency : " + str(res))
 
 
 
